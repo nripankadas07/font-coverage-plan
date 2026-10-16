@@ -1,0 +1,149 @@
+[
+  {
+    "full": "fontforge/fontforge",
+    "url": "https://github.com/fontforge/fontforge",
+    "stars": 8024,
+    "default_branch": "master",
+    "pushed_at": "2026-10-13T20:50:40Z",
+    "updated_at": "2026-10-15T16:32:42Z",
+    "archived": false,
+    "license": "NOASSERTION",
+    "description": "Free (libre) font editor for Windows, Mac OS X and GNU+Linux",
+    "observed": "2026-10-16T06:08:19.441Z",
+    "readme": {
+      "path": "README.md",
+      "sha": "dfef1575fed88416ede61f599a4900afa9087e86"
+    },
+    "issues": [
+      {
+        "number": 5917,
+        "title": "splineoverlap: do not crash when a monotonic cannot be found (#5357)",
+        "url": "https://github.com/fontforge/fontforge/pull/5917",
+        "pull_request": true
+      },
+      {
+        "number": 5909,
+        "title": "windows .exe requires admin",
+        "url": "https://github.com/fontforge/fontforge/issues/5909",
+        "pull_request": false
+      },
+      {
+        "number": 5908,
+        "title": "Do not read a CFF charset when the font has no glyphs (#5879)",
+        "url": "https://github.com/fontforge/fontforge/pull/5908",
+        "pull_request": true
+      },
+      {
+        "number": 5905,
+        "title": "Fix signed left-shift overflow when assembling 32-bit values in mem.c (#5881)",
+        "url": "https://github.com/fontforge/fontforge/pull/5905",
+        "pull_request": true
+      },
+      {
+        "number": 5904,
+        "title": "LoadNamelist(\"ybd.nam\") causes syntax error",
+        "url": "https://github.com/fontforge/fontforge/issues/5904",
+        "pull_request": false
+      }
+    ],
+    "observation_scope": "Metadata, current README and up to five current issue/PR entries inspected; not exhaustive issue history or a competitor execution benchmark."
+  },
+  {
+    "full": "fonttools/fonttools",
+    "url": "https://github.com/fonttools/fonttools",
+    "stars": 5292,
+    "default_branch": "main",
+    "pushed_at": "2026-10-15T09:24:13Z",
+    "updated_at": "2026-10-15T09:24:21Z",
+    "archived": false,
+    "license": "MIT",
+    "description": "A library to manipulate font files from Python.",
+    "observed": "2026-10-16T06:07:57.902Z",
+    "readme": {
+      "path": "README.rst",
+      "sha": "72a9ee0d0f5d1be190e70b2fcadd53bb799649e2"
+    },
+    "issues": [
+      {
+        "number": 4324,
+        "title": "[cmap] Reject format 2 maps that use a byte both as a single-byte code and as a lead byte",
+        "url": "https://github.com/fonttools/fonttools/pull/4324",
+        "pull_request": true
+      },
+      {
+        "number": 4323,
+        "title": "[cffLib] Preserve nine-digit CIDFontVersion values when serializing",
+        "url": "https://github.com/fonttools/fonttools/pull/4323",
+        "pull_request": true
+      },
+      {
+        "number": 4322,
+        "title": "Version 4.67.0 breaks special characters for TTF fonts in `getDebugName`",
+        "url": "https://github.com/fonttools/fonttools/issues/4322",
+        "pull_request": false
+      },
+      {
+        "number": 4320,
+        "title": "[EBLC/EBDT] Fix compiling tables without strikes loaded from XML",
+        "url": "https://github.com/fonttools/fonttools/pull/4320",
+        "pull_request": true
+      },
+      {
+        "number": 4319,
+        "title": "[ttLib] Fix compiling empty gasp, SVG and COLRv0 tables loaded from XML",
+        "url": "https://github.com/fonttools/fonttools/pull/4319",
+        "pull_request": true
+      }
+    ],
+    "observation_scope": "Metadata, current README and up to five current issue/PR entries inspected; not exhaustive issue history or a competitor execution benchmark."
+  },
+  {
+    "full": "fonttools/fontbakery",
+    "url": "https://github.com/fonttools/fontbakery",
+    "stars": 705,
+    "default_branch": "main",
+    "pushed_at": "2025-11-04T18:52:25Z",
+    "updated_at": "2026-10-11T20:42:29Z",
+    "archived": false,
+    "license": "Apache-2.0",
+    "description": "\ud83e\uddc1 A font quality assurance tool for everyone ",
+    "observed": "2026-10-16T06:07:57.763Z",
+    "readme": {
+      "path": "README.md",
+      "sha": "152234f3fafbad6aa0a37263548bd0d6f5ea6b6e"
+    },
+    "issues": [
+      {
+        "number": 5061,
+        "title": "[bad-hhea-range] Fail when HHEA is supposedly in range",
+        "url": "https://github.com/fonttools/fontbakery/issues/5061",
+        "pull_request": false
+      },
+      {
+        "number": 5060,
+        "title": "Fix false positive in googlefonts/colorfont_tables for variable fonts with non-varying SVG glyphs",
+        "url": "https://github.com/fonttools/fontbakery/pull/5060",
+        "pull_request": true
+      },
+      {
+        "number": 5059,
+        "title": "Fix `UnboundLocalError` in Markdown report when all checks pass",
+        "url": "https://github.com/fonttools/fontbakery/pull/5059",
+        "pull_request": true
+      },
+      {
+        "number": 5058,
+        "title": "Bug - Markdown report throws error when all checks pass",
+        "url": "https://github.com/fonttools/fontbakery/issues/5058",
+        "pull_request": false
+      },
+      {
+        "number": 5057,
+        "title": "Replace obsolete macos-13 with macos-latest in GH-Actions",
+        "url": "https://github.com/fonttools/fontbakery/pull/5057",
+        "pull_request": true
+      }
+    ],
+    "observation_scope": "Metadata, current README and up to five current issue/PR entries inspected; not exhaustive issue history or a competitor execution benchmark."
+  }
+]

@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "font-coverage-plan"
+version = "0.1.0"
+description = "Parse real standalone SFNT cmap format4/12 mappings, report per-font corpus gaps and choose a deterministic greedy fallback order with code-point evidence."
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = []
+
+[project.scripts]
+font-coverage-plan = "font_coverage_plan:main"
+
+[tool.setuptools]
+py-modules = ["font_coverage_plan"]

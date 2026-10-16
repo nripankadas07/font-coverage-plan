@@ -1,0 +1,31 @@
+{
+  "python": "3.12.14",
+  "fonttools": "4.61.1",
+  "scope": "Mapping equivalence only on two installed fonts; not shaping or a general competitor benchmark. No font bytes redistributed.",
+  "results": [
+    {
+      "font": "DejaVuSans.ttf",
+      "sha256": "ae7b7855e115a5966d8b1b3f80f254ccc117ec86f9965e202ee2940453837280",
+      "selected": {
+        "platform": 3,
+        "encoding": 10,
+        "format": 12,
+        "declared_glyphs": 6253
+      },
+      "compared_codepoints": 65617,
+      "mismatches": 0
+    },
+    {
+      "font": "NimbusSans-Regular.otf",
+      "sha256": "7c25be4d78155523080ab85b10277150657ff7dabbcad7037bdd536c9b6d0d08",
+      "selected": {
+        "platform": 3,
+        "encoding": 1,
+        "format": 4,
+        "declared_glyphs": 855
+      },
+      "compared_codepoints": 65617,
+      "mismatches": 0
+    }
+  ]
+}
